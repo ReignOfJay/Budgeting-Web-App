@@ -1,5 +1,16 @@
-# Budgeting-Web-App
+# Budgeting-Web-App Project Narrative
 Design an easy-to-use web application for efficient budgeting. 
+
+(Details may be altered as we discern our skills and tools capabilities)
 
 The final product of this app would be accessible for younger and older users, allowing them to quickly and easily track routine, expected, and idealistic expenses for spending comfortably and accordingly.
 
+There should be different roles to access for this app: App Administrators(AA) and App Users(AU) (Budget advisors may be a role included at a later date). Upon opening the app, Each user will be prompted to login in with their unique Username and Password. A username should be five or more characters long, have at least one upper case letter and lowcase letter, while not containing the users first or last name. Passwords share the usernames requirements, while additonally requiring a special character such as :'!', '&', '$', '@', and '#'. AAs, also known as App Adminstrators, should be able to alter any users(AU) username or password. AUs should be able to alter their own password. 
+
+(NOTE: The AUs account won't be linked to this app so no harm will be done. However, in a larger and more professional version of this app the AU would likely be prompted to link their bank account to the app in a way that doesn't alter their bank account, but instantly feeds neccessary information into the app. At the behest of the AU of course.)
+
+When an AU opens the app for the first time, they'll be prompted a couple of question to gauge their current financial station. This information should be taken into account by the app and used for later budgeting suggestions. Some of the main prompts should include: "How much funds do you currently or approximately have in your checking account (Skip if N/A or if you dont wish to share)?", "Do you currently have any savings?", "How much funds do you currently or approximately have in your savings account (Skip if N/A or if you dont wish to share)?", "How often do you get paid via your main source of income (Bi-Weekly, Weekly, Monthly or Other)?", "Do you have alternative sources of income(Y/N)?", and a multi-prompt page/selection that asks what the AU is looking for such as : "Finanial Literacy", "Saving", "Travel", "Fun", "Necessity", and "Dyvvy (This is the apps name. Ultimately this option would likely have a quick description thats visible to the user when prompted. Dyvvy stands for visualizing the overall literacy of your finances and improving it accordingly)?". After the first time AU finishes these prompts their home screen will be personalized to their answers. Each of the multi-prompt options will have further quicky and easy prompts to discern how to best Dyvvy the AUs finances accordingly.
+
+The Home Screen of an AU should immediately show the AU's current or approximate Checking funds beside a weekly/monthly goal for the AU. Underneath that should be a general financial suggestion for saving based on actual economic research (may be personalized depending on the users economic and household status at a later date). Current or approximate Savings funds should also be shown alongside savings goals and tips. Both the Checkings and Savings funds should be alterable by the user to add or negate funds. Further below or beside should be the finished or unfinsihed page links/buttons to the afformentioned multi-prompt selections.
+
+(will continue narrative later..)
