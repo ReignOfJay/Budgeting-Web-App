@@ -77,7 +77,6 @@ Planned Model responsibilities include:
 
 * User information
 * Income
-* Expenses
 * Budget categories
 * Bills
 * Savings goals
@@ -148,7 +147,6 @@ The primary goals of the project are to:
 5. Incorporate researched financial-literacy concepts into the application.
 6. Develop a rule-based system capable of generating educational financial suggestions.
 7. Practice full-stack web development and database integration.
-8. Create a practical portfolio project demonstrating software development skills.
 
 ## 🔨 Development Plan
 
