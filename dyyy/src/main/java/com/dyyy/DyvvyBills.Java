@@ -2,7 +2,7 @@ package com.dyyy;
 
 import java.time.LocalDate;
 
-public enum Priority {
+enum Priority{
     LOW,
     MEDIUM,
     HIGH,

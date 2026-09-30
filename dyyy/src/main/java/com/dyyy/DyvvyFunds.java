@@ -1,4 +1,7 @@
-package dyyy.src.main.java.com.dyyy;
+package com.dyyy;
+
+import java.util.List;
+import java.util.ArrayList;
 
 enum Acct{
     checking, saving;
@@ -9,6 +12,7 @@ public class DyvvyFunds{
     public double bal;
     public String acctName;
     public Acct acctType;
+    public List<Transaction> transactions;
     
 
     //If necessary may add seperate constructors for account types later
@@ -17,6 +21,7 @@ public class DyvvyFunds{
         this.bal = bal;
         this.acctName = acctName;
         this.acctType = acctType;
+        this.transactions = new ArrayList<>();
     }
 
     public double getBal(){
