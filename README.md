@@ -90,11 +90,11 @@ The View will provide the user interface for interacting with the application.
 
 Planned screens include:
 
-* Dashboard
-* Budget
+* Home Dashboard
+* Accounts
 * Expenses
 * Bills
-* Savings Goals
+* Goals
 * Financial Literacy / Advice
 
 ### Controller
@@ -131,8 +131,8 @@ The technology stack may evolve during development.
 * **Spring Boot**
 * **HTML**
 * **CSS**
+* **Thymeleaf**
 * **JavaScript**
-* **REST APIs**
 * **SQL / Database**
 * **Git & GitHub**
 
@@ -142,11 +142,10 @@ The primary goals of the project are to:
 
 1. Create an intuitive multi-screen budgeting web application.
 2. Practice designing a real-world application using MVC.
-3. Develop a structured financial data Model before building the interface.
-4. Provide useful budgeting, bill, and savings-tracking functionality.
-5. Incorporate researched financial-literacy concepts into the application.
-6. Develop a rule-based system capable of generating educational financial suggestions.
-7. Practice full-stack web development and database integration.
+3. Provide useful budgeting, bill, and savings-tracking functionality.
+4. Incorporate researched financial-literacy concepts into the application.
+5. Develop a rule-based system capable of generating educational financial suggestions.
+6. Practice full-stack web development and database integration.
 
 ## 🔨 Development Plan
 
@@ -198,9 +197,4 @@ The primary goals of the project are to:
 
 ## 📌 Current Status
 
-The project is currently at the **planning / early development stage**.
-
-The first development focus will be the **Model** of the MVC architecture. Financial-literacy research will be used to help determine what information the Model should store and what rules may eventually support the application's savings and guidance features.
-
-As development progresses, this README will be updated to reflect implemented functionality rather than planned functionality.
-
+I'm currently working on the integration of **Spring Boot and Thymeleaf** as I develop the **Controllers** for functionality within a **UI**.
