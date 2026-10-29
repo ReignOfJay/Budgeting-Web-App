@@ -1,11 +1,8 @@
-package com.dyyy;
+package com.dyyy.model;
 
 //**************** Model Class for each users necessary characteristics and login info **************** 
 
-enum Role{
-    admin,
-    client;
-}
+
 
 public class DyvvyUser{
 

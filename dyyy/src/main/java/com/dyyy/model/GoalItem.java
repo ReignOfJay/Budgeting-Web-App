@@ -1,4 +1,4 @@
-package com.dyyy;
+package com.dyyy.model;
 
 public class GoalItem {
 

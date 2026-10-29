@@ -5,6 +5,8 @@ import static org.junit.jupiter.api.Assertions.*;
 import java.time.LocalDate;
 
 import org.junit.jupiter.api.Test;
+import com.dyyy.model.DyvvyBills;
+import com.dyyy.model.Priority;
 
 public class DyvvyBillsTest {
 

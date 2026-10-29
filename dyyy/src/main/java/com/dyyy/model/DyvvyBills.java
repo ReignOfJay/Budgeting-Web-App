@@ -1,13 +1,8 @@
-package com.dyyy;
+package com.dyyy.model;
 
 import java.time.LocalDate;
 
-enum Priority{
-    LOW,
-    MEDIUM,
-    HIGH,
-    CRITICAL
-}
+
 
 //*************User can input recurring (in the future, non recurring necessities as well) expenses**************
 

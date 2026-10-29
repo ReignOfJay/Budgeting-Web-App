@@ -1,4 +1,4 @@
-package com.dyyy;
+package com.dyyy.model;
 
 import java.time.LocalDate;
 import java.util.List;

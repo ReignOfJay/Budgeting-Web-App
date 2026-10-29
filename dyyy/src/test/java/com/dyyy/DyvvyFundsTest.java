@@ -6,6 +6,10 @@ import java.time.LocalDate;
 
 import org.junit.jupiter.api.Test;
 
+import com.dyyy.model.DyvvyFunds;
+import com.dyyy.model.Acct;
+import com.dyyy.model.Transaction;
+
 public class DyvvyFundsTest {
 
     @Test
@@ -90,5 +94,12 @@ public class DyvvyFundsTest {
 
         assertEquals(1, funds.transactions.size());
         assertEquals(transaction, funds.transactions.get(0));
+    
+
+        funds.setBal(750.00);
+
+        assertEquals(750.00, funds.getBal());
     }
+
+    
 }
