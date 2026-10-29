@@ -26,7 +26,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <!-- What is UTF-8?? -->
-    <maven.compiler.release>23</maven.compiler.release>
+    <maven.compiler.release>25</maven.compiler.release>
   </properties>
 
 <!-- **!!Very Important!! External Library Dependencies for Junit to enable testing**-->
@@ -42,6 +42,12 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-webmvc</artifactId>
     </dependency>
+    
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-thymeleaf</artifactId>
+    </dependency>
+
 </dependencies>
 
 <!-- **I'll add more Dependencies as I build. Adding Spring Boot soon, and then Database, then (Maybe) finally Frontend Framework :)** -->
@@ -52,6 +58,28 @@
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
+        
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-enforcer-plugin</artifactId>
+            <version>3.5.0</version>
+            <executions>
+                <execution>
+                    <id>enforce-maven-version</id>
+                    <goals>
+                        <goal>enforce</goal>
+                    </goals>
+                    <configuration>
+                        <rules>
+                            <requireMavenVersion>
+                                <version>[3.6.3,)</version>
+                            </requireMavenVersion>
+                        </rules>
+                    </configuration>
+                </execution>
+            </executions>
+        </plugin>
+
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
           <!-- Clears generated build output *(From Target dir. usually)* -->
@@ -60,7 +88,7 @@
         <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
-          <version>3.0.2</version>
+          <version>3.3.1</version>
         </plugin>
         <!-- Spring boot Maven plugin-->
         <plugin>

@@ -6,6 +6,15 @@ package com.dyyy;
 
 /*
     This Class "DyvvyApp.java operates as the entry/starting point for Spring Boot config... I hope" */
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class DyvvyApp {
+
+    public static void main(String[] args){
+        SpringApplication.run(DyvvyApp.class, args);
+    }
     
 }

@@ -1,11 +1,8 @@
-package com.dyyy;
+package com.dyyy.model;
 
 import java.util.List;
 import java.util.ArrayList;
 
-enum Acct{
-    checking, saving;
-}
 
 public class DyvvyFunds{
     

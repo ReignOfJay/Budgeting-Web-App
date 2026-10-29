@@ -6,6 +6,8 @@ import java.time.LocalDate;
 
 import org.junit.jupiter.api.Test;
 
+import com.dyyy.model.Transaction;
+
 public class TransactionTest {
 
     @Test

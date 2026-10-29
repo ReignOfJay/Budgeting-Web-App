@@ -2,6 +2,9 @@ package com.dyyy;
 
 import org.junit.jupiter.api.Assertions.*;
 
+import com.dyyy.model.DyvvyUser;
+import com.dyyy.model.Role;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
