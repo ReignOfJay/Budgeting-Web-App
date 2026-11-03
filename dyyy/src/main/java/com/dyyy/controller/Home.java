@@ -11,7 +11,7 @@ public class Home{
     
     @GetMapping("/")
     public String sayHello() {
-        return "home";
+        return "home"; // 'home' is the view name that is points the HTML file via Thymeleaf
     }
 
 }
