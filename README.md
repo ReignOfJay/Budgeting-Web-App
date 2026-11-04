@@ -197,4 +197,8 @@ The primary goals of the project are to:
 
 ## 📌 Current Status
 
-I'm currently working on the integration of **Spring Boot and Thymeleaf** as I develop the **Controllers** for functionality within a **UI**.
+I'm currently utilizing Thymeleaf to design the first version of the UI with HTML and CSS, setting up static links and foundational structure before adding functionality behind certain features...
+
+Here's the current homepage...
+<img width="467" height="500" alt="image" src="https://github.com/user-attachments/assets/9a450c01-3246-4c93-93a9-00f862aaa136" />
+
