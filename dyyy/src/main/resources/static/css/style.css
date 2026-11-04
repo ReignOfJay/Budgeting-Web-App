@@ -1,6 +1,6 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: #f7f5fc;
+    background-color: #fffff5;
     color: #29243a;
 }
 
@@ -43,12 +43,38 @@ main {
     margin-top: 40px;
 }
 
-section h2{
-    display: flex;
-    justify-content: space-around;
+.welcome h2{
+    text-align:center;
 }
 
 section p{
     display: flex;
     justify-content: left;
+}
+
+.Overview-Card{
+    background-color: #eacff0;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.Overview-Card a{
+    color: #481d75;
+    text-decoration: none;
+}
+
+.Overview-Card a:hover{
+    color:#fcf0ff;
+}
+
+
+.overview-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+footer{
+    display: flex;
+    background-color:rgb(220, 162, 243);
 }
