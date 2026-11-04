@@ -200,5 +200,6 @@ The primary goals of the project are to:
 I'm currently utilizing Thymeleaf to design the first version of the UI with HTML and CSS, setting up static links and foundational structure before adding functionality behind certain features...
 
 Here's the current homepage...
-<img width="467" height="500" alt="image" src="https://github.com/user-attachments/assets/9a450c01-3246-4c93-93a9-00f862aaa136" />
+<img width="956" height="581" alt="image" src="https://github.com/user-attachments/assets/b81f22b5-9f56-4b61-b2c2-f58c30bd8423" />
+
 
