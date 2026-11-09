@@ -43,6 +43,10 @@ main {
     margin-top: 40px;
 }
 
+.welcome{
+    margin-bottom: 40px;
+}
+
 .welcome h2{
     text-align:center;
 }
@@ -52,10 +56,15 @@ section p{
     justify-content: left;
 }
 
+.overview > h2{
+    margin-bottom: 20px;
+}
+
 .Overview-Card{
     background-color: #eacff0;
     padding: 16px;
     border-radius: 10px;
+    margin: 0;
 }
 
 .Overview-Card a{
@@ -67,6 +76,15 @@ section p{
     color:#fcf0ff;
 }
 
+.Overview-Card h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.Overview-Card p:first-of-type {
+    font-size: 24px;
+    font-weight: bold;
+}
 
 .overview-grid {
     display: grid;
@@ -77,4 +95,5 @@ section p{
 footer{
     display: flex;
     background-color:rgb(220, 162, 243);
+    margin-top:40px;
 }
